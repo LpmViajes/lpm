@@ -1,0 +1,462 @@
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ejemplos*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.fila1{
+  display: flex;
+  width: 100px;
+  background-color: #ffffff;
+}
+
+.ejemplo1{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 70px;
+  flex: 1;
+
+}
+.mercado{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding: 40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ejemplo2{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
+  flex: 1;
+
+}
+.mercado2{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding:  40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio2{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton2{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ejemplo3{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 30px;
+  flex: 1;
+
+}
+.mercado3{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding: 40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio3{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton3{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.fila2{
+  display: flex;
+  width: 100px;
+  background-color: #ffffff;
+}
+
+.ejemplo4{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 70px;
+  flex: 1;
+
+}
+.mercado4{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding: 40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo4{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio4{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton4{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.ejemplo5{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
+  flex: 1;
+
+}
+.mercado5{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding:  40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo5{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio5{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton5{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ejemplo6{
+  background-color: rgba(94, 156, 197, 0.5);
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 30px;
+  flex: 1;
+
+}
+.mercado6{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding: 40px;
+  padding-bottom: 5px;
+}
+.mercadotitulo6{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.precio6{
+  display: flex;
+  justify-content: center;
+  color: #0d5c81;
+  font-size: 30px;
+}
+.boton6{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #00000080;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #00000080;
+  transition: 0.5s ease;
+  user-select: none;
+}
+#btn:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Navegacion de la pagina*/
+a{
+    display: block;
+    margin-top: 50px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(182, 182, 182, 0.8);
+    border-radius: 10px;
+
+  }
+  li {
+    float: left;
+  }
+  li a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 22px 35px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+    color: #ffffff;
+  }
+  .active {
+    background-color: #78b5d1;
+  }
+  .titulo{
+    display: flex;
+    justify-content: center;
+    color: #78b5d1;
+    float: left;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+  .logo{
+    display: flex;
+    justify-content: end;
+    height: 70px;
+    float: right;
+  }
+  /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Form*/
+.formbg{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px
+}
+  .formulario {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  background-color: rgb(212, 212, 212);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+
+.formulario .titleform {
+  color: royalblue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.formulario textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.formulario button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+}
+    
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  /* Ajusta el tamaño de la fuente y el espaciado */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Ajusta el tamaño del contenedor */
+  .div-class {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fila1, .fila2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  .ejemplo1, .ejemplo2, .ejemplo3, .ejemplo4, .ejemplo5, .ejemplo6 {
+    padding: 40px; /* Ajusta el padding superior e inferior a 20px y el padding izquierdo y derecho a 40px */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  
+  .mercado, .mercado2, .mercado3, .mercado4, .mercado5, .mercado6 {
+    width: 150px; /* Reduce el ancho de la imagen a 100px */
+    height: 150px; /* Reduce el alto de la imagen a 100px */
+    margin: 0 auto; /* Centra la imagen */
+  }
+  /* Ajusta el tamaño del título y subtítulo */
+  .mercadotitulo, .mercadotitulo2, .mercadotitulo3, .mercadotitulo4, .mercadotitulo5, .mercadotitulo6 {
+    font-size: 18px;
+  }
+
+  .precio, .precio2, .precio3, .precio4, .precio5, .precio6 {
+    font-size: 24px;
+  }
+
+  /* Ajusta el tamaño del botón */
+  .boton1, .boton2, .boton3, .boton4, .boton5, .boton6 {
+    padding: 10px 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(182, 182, 182, 0.8);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: #ffffff;
+  }
+
+  .active {
+    background-color: #78b5d1;
+  }
+}
